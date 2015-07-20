@@ -10,4 +10,4 @@ sudo apt-get update
 sudo apt-get install -y mc apache2 mysql-server php5 phpmyadmin php5-apcu php5-memcache
 sudo locale-gen ru_RU.UTF-8
 sudo update-locale
-sudo a2enmode rewrite
+sudo /usr/sbin/a2enmod rewrite
